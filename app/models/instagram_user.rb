@@ -1,5 +1,5 @@
 class InstagramUser
-  ACCESSTOKEN = ""
+  ACCESSTOKEN = ENV["INSTAGRAM_ACCESS_TOKEN"]
   PROPERTIES = [:id, :username]
 
 
